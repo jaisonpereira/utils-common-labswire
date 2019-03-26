@@ -4,4 +4,4 @@ jdk:
    
 install:
    - echo "Running a custom install command with wrapper maven"
-   - ./mvnw clean install
+   - ./mvnw clean install -DskipTests
