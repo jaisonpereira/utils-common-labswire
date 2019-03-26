@@ -64,12 +64,6 @@ public class StringManager {
     public static final String LINE_FEED = System.getProperty("line.separator");
 
     /**
-     * Construtor padrao<br/>
-     */
-    private StringManager() {
-    }
-
-    /**
      * Retorna um <code>String</code> criado a partir do <code>byte[]</code>
      * fornecido<br/>
      *
